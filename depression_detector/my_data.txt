@@ -1,0 +1,22 @@
+import pandas as pd
+import numpy as np
+import pymongo
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydata_vision"]
+mycol = mydb["my_data"]
+
+time =[]
+neutral =[]
+happy=[]
+sad =[]
+angry =[]
+disguted =[]
+fearful=[]
+surprised=[]
+time_d=[]
+
+
+for i in mycol.find():
+	time.append(i["time"])
+)
+print(time)
