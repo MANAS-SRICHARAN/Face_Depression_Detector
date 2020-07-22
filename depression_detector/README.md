@@ -1,4 +1,4 @@
-# Face detection using Face-Api.js and Flask
+# Depression detector using Python,Javascript (Tensorflow.js) and socket programming.
 
 
-Usage of Face-Api.js in Flask Python server to reduce the compute resources consumption and integrate TF.js resources with Flask by using sockets
+
